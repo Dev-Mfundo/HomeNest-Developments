@@ -1,7 +1,7 @@
 function Hero(){
     return(
         <div className="hero">
-            <h2>HomeNest Development</h2>
+            <h2 className="bgHeading">HomeNest Development</h2>
             <div className="hero-content">
                 <h2>Your Dream Home, Within Reach</h2>
                 <p className="catchphrase">Find the perfect property that fits your lifestyle.</p>

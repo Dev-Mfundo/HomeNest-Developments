@@ -3,17 +3,17 @@ function About(){
         <section id="about">
         <div className="about-container">
             <div className="about-header">
-                <h2>About Us</h2>
-                <p>Learn more about our values and our mission. We are dedicated to providing the best services to our new home owners.</p>
+                <h2>Our Story</h2>
             </div>
             <div className="about-content">
                 <div className="about-text">
-                    <h3>Our Story</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis diam et ligula gravida, eget pharetra purus posuere. Praesent faucibus neque eget dui elementum, eu tempor nisl sodales.</p>
-                    <p>Phasellus vehicula velit a sapien fermentum, non vulputate sapien consectetur. Sed in erat ut libero bibendum laoreet non a arcu.</p>
+                    <p>HomeNest Developments provides modern, affordable housing solutions for the middle-class working individual.</p>
+                    <p>Our goal is to create homes that blend quality, convenience, and comfort, ensuring you live in a space that meets both your needs and lifestyle.</p>
+                    <p>We aim to create neighborhoods that inspire pride, security, and a sense of belonging for working professionals.</p>
+                    <p>At HomeNest, we believe that everyone deserves a home that reflects their aspirations and supports their lifestyle.</p>
                 </div>
                 <div className="about-images">
-                    <img src="./media/content/living-stone-gp.PNG" alt=""/>
+                    <img src="./src/assets/content/living-stone-gp.PNG" alt=""/>
                 </div>
             </div>
         </div>

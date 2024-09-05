@@ -121,6 +121,84 @@ header {
     width: 80%;
   }
 }
+/*HERO*/
+
+
+.hero {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #000 url('src/assets/content/secondOne.PNG');
+  -webkit-backdrop-filter: blur(15px) saturate(150%);
+  backdrop-filter: blur(15px) saturate(150%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bgHeading{
+  font-size: clamp(6rem,8vw,10rem);
+  height: 0;
+  position: absolute;
+  top: 0px;
+  color: #33333349;
+}
+.hero-content {
+  z-index: 2;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.hero-content h2{
+  font-size: clamp(3rem,6vh,11rem);
+  color: #ffffff;
+
+}
+.hero-content p{
+  font-size: clamp(1.3rem,5vh,8rem);
+}
+.catchphrase {
+  color: goldenrod;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.search-area {
+  margin: 20px 0;
+
+}
+.search-area input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 0px;
+  border: 0px;
+  background-color: #333;
+  color: #c5c5c5;
+  width: 70%;
+  max-width: 300px;
+  outline: 1px solid #c5c5c5;
+}
+
+.search-area button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 0px;
+  border-radius: 0px;
+  background-color: goldenrod;
+  color: #000;
+  outline: 1px solid rgba(218, 165, 32, 0.514);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-area button:hover {
+  background-color: #000;
+  color: goldenrod;
+}
 
 /*ABOUT*/
 

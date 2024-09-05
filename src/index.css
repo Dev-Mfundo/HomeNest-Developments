@@ -1,0 +1,163 @@
+* {
+  outline: 0;
+  border: 0;
+}
+
+html {
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Lato', "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  width: 100%;
+
+}
+
+button {
+  background-color: goldenrod;
+  color: #000000;
+  border: 1px solid goldenrod;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #000000;
+  color: goldenrod;
+}
+
+a {
+  text-decoration: none;
+  color: #c5c5c5;
+  font-family: "Gupter", serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: rgb(17, 17, 17);
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+a:hover {
+  color: rgb(17, 17, 17);
+  background-color: #c5c5c5;
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid goldenrod;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  margin: 0 auto;
+  border: 1px solid goldenrod;
+}
+
+.hero {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #000 url('src/assets/content/secondOne.PNG');
+  -webkit-backdrop-filter: blur(15px) saturate(150%);
+  backdrop-filter: blur(15px) saturate(150%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-content {
+  z-index: 2;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.hero-content h2{
+  font-size: clamp(3rem,6vh,11rem);
+
+}
+.hero-content p{
+  font-size: clamp(1.3rem,5vh,8rem);
+}
+.catchphrase {
+  color: goldenrod;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.search-area {
+  margin: 20px 0;
+
+}
+.search-area input {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 0px;
+  border: 0px;
+  background-color: #333;
+  color: #c5c5c5;
+  width: 70%;
+  max-width: 300px;
+  outline: 1px solid #c5c5c5;
+}
+
+.search-area button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 0px;
+  border-radius: 0px;
+  background-color: goldenrod;
+  color: #000;
+  outline: 1px solid rgba(218, 165, 32, 0.514);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-area button:hover {
+  background-color: #000;
+  color: goldenrod;
+}
+
+
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #c5c5c5;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #c5c5c5;
+  background-color: #000000;
+  color: #ffffff;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: goldenrod;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}

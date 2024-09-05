@@ -13,7 +13,7 @@ function About(){
                     <p>At HomeNest, we believe that everyone deserves a home that reflects their aspirations and supports their lifestyle.</p>
                 </div>
                 <div className="about-images">
-                    <img src="./src/assets/content/living-stone-gp.PNG" alt=""/>
+                    <img src="/livingStoneGp.PNG" alt=""/>
                 </div>
             </div>
         </div>

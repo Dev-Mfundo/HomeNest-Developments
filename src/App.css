@@ -132,7 +132,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #000 url('src/assets/content/secondOne.PNG');
+  background-color: #000 ;
   -webkit-backdrop-filter: blur(15px) saturate(150%);
   backdrop-filter: blur(15px) saturate(150%);
   background-position: center;

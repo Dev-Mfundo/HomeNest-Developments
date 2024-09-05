@@ -1,6 +1,11 @@
 function Hero(){
+    const heroStyle={
+    backgroundImage: `url("/secondOne.PNG")`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
+    }
     return(
-        <div className="hero">
+        <div className="hero" style={heroStyle}>
             <h2 className="bgHeading">HomeNest Development</h2>
             <div className="hero-content">
                 <h2>Your Dream Home, Within Reach</h2>

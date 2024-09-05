@@ -1,8 +1,10 @@
-# React + Vite
+HomeNest Developments - Real Estate Listing Website
+HomeNest Developments is an advanced real estate listing platform designed to connect property seekers with real estate agents and property listings. This project emphasizes a user-friendly interface and efficient data management to facilitate property searches and transactions.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview:
+HomeNest Developments provides a comprehensive platform for users to search for real estate properties based on various criteria, view property details, and contact agents. The website features an intuitive search interface and robust back-end functionality to support real estate operations.
 
-Currently, two official plugins are available:
+Technologies Used:
+React:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#BACK-END am planning on using php and mysql for database

@@ -23,7 +23,6 @@ function Header(){
                     <a href="#contacts">Contact</a>
                     <div className="getInBtn">
                         <button>Login</button>
-                        <button>Sign up</button>
                     </div>
                 </div>
             </div>

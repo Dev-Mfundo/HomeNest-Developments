@@ -17,7 +17,7 @@ function Header(){
                     <div></div>
                 </div>
                 <div className={`navbar ${isNavVisible ? "show" : ""}`}>
-                    <a href="./index.html">Home</a>
+                    <a href="./">Home</a>
                     <a href="#about">About</a>
                     <a href="#developments">Developments</a>
                     <a href="#contacts">Contact</a>

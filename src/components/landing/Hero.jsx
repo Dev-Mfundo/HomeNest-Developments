@@ -16,7 +16,7 @@ function Hero(){
                         <input type="text" id="user-searchInput" placeholder="Search by area or name..."/>
                         <button type="submit">Search</button>
                     </form>
-                    <a href="sign-up.html" className="startBtn">Sign up Today</a>
+                    <a href="#developments" className="startBtn">Check Properties</a>
                 </div>
             </div>
     </div>

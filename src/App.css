@@ -14,6 +14,7 @@ header {
   top: 0;
   z-index: 1000;
   background-color: #1a1a1a;
+  max-height: 70px;
 }
 
 .branding {
@@ -519,13 +520,33 @@ footer a:hover {
 }
 
 /*FORMS*/
-
-.auth-page {
+.auth-page{
+  margin-top:5%;
+}
+.form-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
 }
+
+.close-btn {
+  position: relative;
+  right: 150px;
+  bottom: 50px;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 
 .loader {
   display: none;
@@ -543,14 +564,14 @@ footer a:hover {
 }
 .form-container {
   background-color: #1a1a1a;
-  padding: 20px 16px;
+  padding: 5px 20px;
   border-radius: 8px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
   width: 100%;
   max-width: 400px;
   box-sizing: border-box;
-  position: relative;
   text-align: center;
+
 }
 
 h2 {
